@@ -81,6 +81,8 @@ libbacktrace_wrapper_cpp.o: libbacktrace_wrapper.cpp libbacktrace_wrapper.c libb
 $(LIBDIR):
 	mkdir -p $@
 
+USE_VENDORED_LIBUNWIND := 1
+
 #########
 # macOS #
 #########
