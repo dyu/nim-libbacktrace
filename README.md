@@ -32,6 +32,11 @@ cd nim-libbacktrace
 git submodule update --init
 ```
 
+Build:
+```sh
+./build.sh
+```
+
 You build the library (or libraries, on macOS) with `make`. You test it with
 `make test`.
 

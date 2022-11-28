@@ -56,7 +56,7 @@ endif
 
 all: $(LIBBACKTRACE_DEP) $(LIBDIR)/libbacktracenim.a
 
-BUILD_CXX_LIB := 1
+BUILD_CXX_LIB := 0
 ifeq ($(BUILD_CXX_LIB), 1)
 all: $(LIBDIR)/libbacktracenimcpp.a
 endif

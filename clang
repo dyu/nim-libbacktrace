@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/local/bin/zig10 cc $ZCC_OPTS $@
